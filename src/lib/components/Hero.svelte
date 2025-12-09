@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import profileImage from "../../photo/wibisono.png";
 
   let visible = $state(false);
   let typedText = $state("");
@@ -113,7 +114,7 @@
           <div class="frame-corner frame-corner-br"></div>
           <div class="image-glow"></div>
           <img
-            src="src/photo/wibisono.png"
+            src={profileImage}
             alt="Ibnu Angga Wibisono"
             class="profile-image"
           />
