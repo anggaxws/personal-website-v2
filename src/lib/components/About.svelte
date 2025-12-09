@@ -30,7 +30,7 @@
 		},
 		{
 			title: 'Project Management',
-			description: 'Taken apart on leading EU-funded Erasmus+ projects, coordinating multicultural teams, and ensuring structured, compliant project delivery across Europe.'
+			description: 'Experienced on leading EU-funded Erasmus+ projects, coordinating multicultural teams, and ensuring structured, compliant project delivery across Europe.'
 		},
 		{
 			title: 'Frontend Development',
