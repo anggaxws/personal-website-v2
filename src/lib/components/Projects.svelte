@@ -30,7 +30,7 @@
 				'Developed a simple portfolio website showcasing my profile that I always used during job application or self-introduction.',
 			tech: ['HTML', 'CSS', 'JavaScript'],
 			category: 'Web Development',
-			url: 'https://personal-website-7tpvrw7jb-anggas-projects-ed631bc1.vercel.app/' 
+			url: 'https://anggawibisono.vercel.app/' 
 		},
 		{
 			title: 'AirBnB Clone',
