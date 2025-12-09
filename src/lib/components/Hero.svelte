@@ -113,7 +113,7 @@
           <div class="frame-corner frame-corner-br"></div>
           <div class="image-glow"></div>
           <img
-            src="/photo/wibisono.png"
+            src="src/photo/wibisono.png"
             alt="Ibnu Angga Wibisono"
             class="profile-image"
           />
