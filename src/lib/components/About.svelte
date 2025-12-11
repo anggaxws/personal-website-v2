@@ -66,11 +66,11 @@
         <p class="intro-text">
           I'm a <strong>Business Informatics graduate (B.Sc.)</strong> and
           current
-          <strong>Master's student at Trier University of Applied Sciences</strong>. Though I'm at
-          the early stages of my journey as a developer, my background in
-          business strategy and my enthusiasm for Full-Stack development and AI
-          drive me to continuously evolve my technical expertise and build
-          impactful solutions.
+          <strong
+            >Master's student at Trier University of Applied Sciences</strong
+          >. I genuinely enjoy web development, but I’m equally fascinated by
+          how businesses operate and grow. That’s why I feel completely at home
+          at the intersection of business and informatics.
         </p>
         <p class="intro-text">
           With over three years of experience in <strong
