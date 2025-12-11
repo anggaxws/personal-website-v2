@@ -32,7 +32,7 @@
     {
       title: "Project Management",
       description:
-        "Experienced on leading EU-funded Erasmus+ projects, coordinating multicultural teams, and ensuring structured, compliant project delivery across Europe.",
+        "Experienced on managing EU-funded Erasmus+ projects, coordinating multicultural teams, and ensuring structured, compliant project delivery across Europe.",
     },
     {
       title: "Frontend Development",
@@ -47,7 +47,7 @@
     {
       title: "Multilingual Abilities",
       description:
-        "Fluent in German (C1) and English (C1), with additional proficiency in Indonesian (N), Javanese (N), Malay and Turkish (B1) enabling smooth collaboration and clear communication in diverse, multicultural teams.",
+        "Fluent in German (C1) and English (C1), with additional proficiency in Indonesian (N), Javanese (N), Malay and Turkish (B1).",
     },
     {
       title: "Growth Mindset & Innovation",
@@ -73,10 +73,10 @@
           at the intersection of business and informatics.
         </p>
         <p class="intro-text">
-          With over three years of experience in <strong
-            >Project Management</strong
-          > during my Bachelor, I've learned to coordinate teams, manage complexities,
-          and transform business needs into clear, actionable technological solutions.
+          During my Bachelor studies, I gained around three years of experience
+          in <strong>project management</strong>, where I learned to coordinate international teams, manage
+          complex tasks, and turn business needs into clear, actionable
+          technological solutions.
         </p>
         <p class="intro-text">
           Passionate about <strong
@@ -87,8 +87,7 @@
         </p>
         <p class="intro-text">
           Always open to new opportunities, collaborations, and meaningful
-          conversations. I'm really excited to connect with you and explore how
-          we can learn and work together!
+          conversations. I'm really excited to connect with you!
         </p>
       </div>
 
