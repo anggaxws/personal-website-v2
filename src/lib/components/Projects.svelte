@@ -4,23 +4,33 @@
   let visible = $state(false);
 
   onMount(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            visible = true;
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
+    // Set visible to true immediately on mobile to avoid intersection observer issues
+    const isMobile = window.innerWidth <= 768;
 
-    const element = document.getElementById("projects");
-    if (element) {
-      observer.observe(element);
+    if (isMobile) {
+      visible = true;
+    } else {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              visible = true;
+            }
+          });
+        },
+        {
+          threshold: 0.1,
+          rootMargin: "50px"
+        }
+      );
+
+      const element = document.getElementById("projects");
+      if (element) {
+        observer.observe(element);
+      }
+
+      return () => observer.disconnect();
     }
-
-    return () => observer.disconnect();
   });
 
   const erasmusProjects = [
