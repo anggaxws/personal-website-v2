@@ -314,17 +314,21 @@
     padding: var(--spacing-2xl);
     border: 1px solid var(--color-border);
     transition: all var(--transition-base);
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeInUp 0.6s ease forwards;
-    animation-delay: var(--delay);
     display: flex;
     flex-direction: column;
     height: 100%;
   }
 
+  .projects-content:not(.visible) .project-card {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
   .projects-content.visible .project-card {
-    animation-play-state: running;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInUp 0.6s ease forwards;
+    animation-delay: var(--delay);
   }
 
   @keyframes fadeInUp {
